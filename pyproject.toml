@@ -1,0 +1,9 @@
+[project]
+name = "poker44-motif-detector"
+version = "0.1.0"
+description = "Poker44 SN126 detection miner (v3)"
+requires-python = ">=3.10"
+dependencies = ["bittensor", "numpy", "scikit-learn", "joblib", "torch"]
+
+[tool.setuptools.packages.find]
+include = ["poker44*", "neurons*"]
